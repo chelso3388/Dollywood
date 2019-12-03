@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Dollywood Rides</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Dollywood!</h1>
+
+
+      <form>
+        <div class="form-group">
+          <label for="height">See what rides you can ride by entering your height, in inches</label>
+          <input id="height" class="form-control" type="text">
+        </div>
+        <button class="btn" type="submit">Show me the rides!</button>
+      </form>
+
+      <div id="over-height">
+      <p>These are the rides you are tall enough to ride:</p>
+        <ul>
+          <li>Barnstomer</li>
+          <li>Blazing Fury</li>
+          <li>Chasing Rainbows</li>
+          <li>Daredevil Falls</li>
+          <li>Dolly's Home-on-Wheels</li>
+          <li>Frogs & Fireflies</li>
+        </ul>
+      </div>
+
+      <div id="under-height">
+      <p>These are the rides you are tall enough to ride:</p>
+        <ul>
+          <li>Chasing Rainbows</li>
+            <ul>
+              <li>A state-of-the-art museum featuring an interactive and behind-the-scenes collections, stories, and memorabilia from Dolly’s life and career.</li>
+              <li>See costumes from Dolly’s movie career including 9 to 5 and Straight Talk, as well as many of her lavishly sequined gowns worn during her countless concerts, award shows and special appearances.  </li>
+            </ul>
+          <li>Dolly's Home-on-Wheels</li>
+            <ul>
+              <li>Dolly’s career and her bus have taken her all across the U.S. Now, the entertainment legend’s home-on-wheels is parked at Dollywood, and you can take a look inside.</li>
+              <li>Dolly’s bus is parked in front of Chasing Rainbows museum.</li>
+            </ul>
+          <li>Frogs & Fireflies</li>
+            <ul>
+              <li>Merry-go-round, but with frogs.</li>
+              <li>Subject to closure during inclement weather.</li>
+            </ul>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>
